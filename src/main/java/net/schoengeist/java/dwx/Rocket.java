@@ -19,7 +19,7 @@ public class Rocket {
         System.out.println("Starting Rocket in:");
         for (int i = 0; i < 10; i++) {
             try {
-                Thread.sleep(250);
+                Thread.sleep(100);
                 System.out.println(String.valueOf(i + 1));
             } catch (InterruptedException e) {
             }
